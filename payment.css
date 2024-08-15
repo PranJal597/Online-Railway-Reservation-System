@@ -1,0 +1,123 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: lightgray;
+}
+
+.header {
+    max-width: 620px;
+    margin: 50px auto 0px;
+    color: white;
+    background: blue;
+    text-align: center;
+    border: 1px solid blue;
+    border-bottom: none;
+    border-radius: 10px 10px 0px 0px;
+    padding: 10px 10px 10px;
+  }
+
+.container {
+    background-color: white;
+    max-width: 600px;
+    margin: 0px auto;
+    padding: 20px;
+    border: 1px solid blue;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.head {
+    margin: 0;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 400;
+    background-color: #007bff;
+}
+
+.payment-options {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.option {
+    flex: 1;
+}
+
+.payment-details {
+    border-top: 1px solid #ccc;
+    padding: 20px 0 0 0;
+}
+
+.payment-details label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.payment-details input {
+    width: 96%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#pay-button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#pay-button:hover {
+    background-color: #0056b3;
+}
+
+
+.qr-code-details{
+    margin: 25px 200px;
+}
+
+.qr-code-details img{
+    height: 200px;
+    width: 200px;
+}
+
+
+.total-amount {
+    margin: 20px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.total-amount label {
+    font-weight: bold;
+}
+
+.total-amount input {
+    width: 100%;
+    padding: 5px;
+    margin-top: 5px;
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    background-color: #fff;
+    font-size: 16px;
+    outline: none;
+    transition: border-color 0.3s ease;
+}
+
+.total-amount input:focus {
+    border-color: #5e9ed6;
+}

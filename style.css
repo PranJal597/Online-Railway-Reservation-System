@@ -1,0 +1,193 @@
+* {
+    margin: 0px;
+    padding: 0px;
+  }
+  body {
+    font-size: 120%;
+    background: lightgrey;
+  }
+  
+  .header {
+    width: 30%;
+    margin: 30px auto 0px;
+    color: white;
+    background: blue;
+    text-align: center;
+    border: 1px solid blue;
+    border-bottom: none;
+    border-radius: 10px 10px 0px 0px;
+    padding: 20px;
+  }
+  form, .content {
+    width: 30%;
+    margin: 0px auto;
+    padding: 20px;
+    border: 1px solid blue;
+    background: white;
+    border-radius: 0px 0px 10px 10px;
+  }
+  .input-group {
+    margin: 10px 0px 10px 0px;
+  }
+  .input-group label {
+    display: block;
+    text-align: left;
+    margin: 3px;
+  }
+  .input-group input {
+    height: 30px;
+    width: 93%;
+    padding: 5px 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid gray;
+  }
+  #submitBtn,
+  #sendOTP,
+  .btn {
+    padding: 10px 25px;
+    font-size: 15px;
+    color: white;
+    background: blue;
+    border: none;
+    border-radius: 5px;
+  }
+
+  /* #5F9EA0; */
+
+  .error {
+    width: 92%; 
+    margin: 0px auto; 
+    padding: 10px; 
+    border: 1px solid #a94442; 
+    color: #a94442; 
+    background: #f2dede; 
+    border-radius: 5px; 
+    text-align: left;
+  }
+  .success {
+    color: #3c763d; 
+    background: #dff0d8; 
+    border: 1px solid #3c763d;
+    margin-bottom: 20px;
+  }
+
+
+  /*  */
+  
+.head-container {
+  max-height: 17vh;
+  background-color: aliceblue;
+}
+
+.nav-links,
+.head-container
+{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav,
+.user,
+.left,
+.right {
+  display: flex;
+  align-items: center;
+}
+
+nav p {
+  font-size: 30px;
+}
+
+.nav-links {
+  justify-content: center;
+  padding: 20px auto;
+  gap: .5rem;
+  list-style: none;
+  font-size: .8rem;
+}
+
+.nav-links li a:hover {
+  display: inline-block;
+  list-style: none;
+  background-color: #2b509a;
+  color: #fff
+}
+
+.nav-links li a {
+  display: inline-block;
+  color: black;
+  text-decoration: none;
+  padding: 10px;
+  text-decoration-color: white;
+}
+
+.nav-links li a.active {
+  padding: 10px;
+  color: #fff;
+  background-color: #2b509a;
+  cursor: pointer;
+}
+
+.logo {
+  background-color: white;
+  margin: 10px 20px 10px 30px;
+  padding: 10px;
+  border: 1px solid lightgrey;
+  border-radius: 50%;
+}
+
+.user {
+  background-color: white;
+  margin: 10px 10px 10px 30px;
+  padding: 10px;
+  border: 1px solid lightgrey;
+  border-radius: 50%;
+
+}
+
+.username {
+  margin: 10px 40px 10px 0;
+  font-size: 20px;
+}
+
+.logo a,
+.user a {
+  text-decoration: none;
+  color: #131921;
+
+}
+
+.logo i,
+.user i {
+  font-size: 30px;
+}
+
+.logo:hover,
+.user:hover {
+  cursor: default;
+}
+
+
+
+.pass input {
+  margin: 0;
+  width: 23px;
+  height: 20px;
+}
+.pass {
+  margin: 10px 0 20px 0;
+  display: flex;
+  align-items: center;
+}
+
+p a {
+  color: blue;
+  text-decoration: none;
+}
+
+p a:hover {
+  color: red;
+  text-decoration: underline;
+}
